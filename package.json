@@ -8,7 +8,8 @@
     "start": "bundle exec jekyll serve --livereload",
     "start-detached": "bundle exec jekyll serve --detach",
     "htmlproofer": "bundle exec htmlproofer _site",
-    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude \"/*.pdf\"  --sitemap-exclude \"/admin\""
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude \"/*.pdf\"  --sitemap-exclude \"/admin\"",
+    "deploy": "gh-pages -d _site"
   },
   "dependencies": {
     "netlify-cms": "^2.10.192",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "pa11y-ci": "^2.4.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "gh-pages": "^4.0.0"
   }
 }
