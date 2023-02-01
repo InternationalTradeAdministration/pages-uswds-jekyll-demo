@@ -18,6 +18,6 @@
   "devDependencies": {
     "pa11y-ci": "^2.4.0",
     "rimraf": "^3.0.2",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^5.0.0"
   }
 }
